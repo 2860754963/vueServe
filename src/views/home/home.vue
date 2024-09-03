@@ -4,6 +4,11 @@
     <div><router-link to="/webScoket">webScoket</router-link></div>
     <div><router-link to="/stopAxios">stopAxios</router-link></div>
     <div><router-link to="/virtualList">virtualList</router-link></div>
+    <div>123
+      <a-button type="primary" @click="handleClick">按钮</a-button>
+      <StepBackwardOutlined />
+      <StarOutlined />
+    </div>
   </div>
 </template>
 
@@ -14,6 +19,7 @@
 * @Describe: home
 */
 <script setup>
+import { StarOutlined, StarFilled, StarTwoTone, StepBackwardOutlined } from '@ant-design/icons-vue';
 </script>
 
 <style scoped>
